@@ -1,0 +1,22 @@
+{
+    "name": "node1",
+    "version": "1.0.0",
+    "description": "Nodejs and TypeScript",
+    "main": "index.ts",
+    "scripts": {
+        "start": "nodemon --exec ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "keywords": ["Nodejs and TypeScript"],
+    "author": "Craig Johnson",
+    "license": "ISC",
+    "dependencies": {
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1",
+        "ts-node": "^8.2.0",
+        "typescript": "^3.5.1"
+    }
+}
+
